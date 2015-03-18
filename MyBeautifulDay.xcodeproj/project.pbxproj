@@ -20,11 +20,12 @@
 		ED6E649E1AB37D03005707B9 /* DiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6E649D1AB37D03005707B9 /* DiaryEntry.m */; };
 		ED7ACF7F1AB614D500FC7AC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7ACF7E1AB614D500FC7AC6 /* QuartzCore.framework */; };
 		ED7ACF811AB6197100FC7AC6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7ACF801AB6197100FC7AC6 /* CoreLocation.framework */; };
-		ED7ACF871AB6607700FC7AC6 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7ACF861AB6607700FC7AC6 /* PhotosViewController.m */; };
 		ED7ACF8D1AB673BD00FC7AC6 /* HelpPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7ACF8C1AB673BD00FC7AC6 /* HelpPageViewController.m */; };
 		ED7ACF901AB6741700FC7AC6 /* HelpDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7ACF8F1AB6741700FC7AC6 /* HelpDetailViewController.m */; };
 		ED7ACF921AB67B3100FC7AC6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED7ACF911AB67B3100FC7AC6 /* Settings.bundle */; };
-		ED7ACFAA1AB73A5A00FC7AC6 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7ACFA91AB73A5A00FC7AC6 /* PhotoCell.m */; };
+		ED7EE12B1AB91CE400D58E6A /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7EE12A1AB91CE400D58E6A /* PhotoCollectionViewCell.m */; };
+		ED7EE12F1AB91D5900D58E6A /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7EE12E1AB91D5900D58E6A /* PhotoCollectionViewController.m */; };
+		ED7EE1331AB9359600D58E6A /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7EE1321AB9359600D58E6A /* PhotoDetailViewController.m */; };
 		EDADA2AA1AB4D6A400FB0AD7 /* EntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDADA2A91AB4D6A400FB0AD7 /* EntryListTableViewController.m */; };
 		EDADA2B01AB506B200FB0AD7 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDADA2AF1AB506B200FB0AD7 /* NavigationController.m */; };
 		EDADA2B31AB50D7F00FB0AD7 /* EntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDADA2B21AB50D7F00FB0AD7 /* EntryCell.m */; };
@@ -62,15 +63,17 @@
 		ED6E649D1AB37D03005707B9 /* DiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryEntry.m; sourceTree = "<group>"; };
 		ED7ACF7E1AB614D500FC7AC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		ED7ACF801AB6197100FC7AC6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		ED7ACF851AB6607700FC7AC6 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
-		ED7ACF861AB6607700FC7AC6 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
 		ED7ACF8B1AB673BD00FC7AC6 /* HelpPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpPageViewController.h; sourceTree = "<group>"; };
 		ED7ACF8C1AB673BD00FC7AC6 /* HelpPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpPageViewController.m; sourceTree = "<group>"; };
 		ED7ACF8E1AB6741600FC7AC6 /* HelpDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpDetailViewController.h; sourceTree = "<group>"; };
 		ED7ACF8F1AB6741700FC7AC6 /* HelpDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpDetailViewController.m; sourceTree = "<group>"; };
 		ED7ACF911AB67B3100FC7AC6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		ED7ACFA91AB73A5A00FC7AC6 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
-		ED7ACFAB1AB73A6300FC7AC6 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		ED7EE1291AB91CE400D58E6A /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		ED7EE12A1AB91CE400D58E6A /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		ED7EE12D1AB91D5900D58E6A /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewController.h; sourceTree = "<group>"; };
+		ED7EE12E1AB91D5900D58E6A /* PhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewController.m; sourceTree = "<group>"; };
+		ED7EE1311AB9359600D58E6A /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		ED7EE1321AB9359600D58E6A /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
 		EDADA2A81AB4D6A400FB0AD7 /* EntryListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryListTableViewController.h; sourceTree = "<group>"; };
 		EDADA2A91AB4D6A400FB0AD7 /* EntryListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryListTableViewController.m; sourceTree = "<group>"; };
 		EDADA2AE1AB506B200FB0AD7 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
@@ -134,16 +137,18 @@
 				EDADA2A91AB4D6A400FB0AD7 /* EntryListTableViewController.m */,
 				EDADA2B11AB50D7F00FB0AD7 /* EntryCell.h */,
 				EDADA2B21AB50D7F00FB0AD7 /* EntryCell.m */,
-				ED7ACFAB1AB73A6300FC7AC6 /* PhotoCell.h */,
-				ED7ACFA91AB73A5A00FC7AC6 /* PhotoCell.m */,
 				ED7ACF8B1AB673BD00FC7AC6 /* HelpPageViewController.h */,
 				ED7ACF8C1AB673BD00FC7AC6 /* HelpPageViewController.m */,
 				ED7ACF8E1AB6741600FC7AC6 /* HelpDetailViewController.h */,
 				ED7ACF8F1AB6741700FC7AC6 /* HelpDetailViewController.m */,
+				ED7EE1291AB91CE400D58E6A /* PhotoCollectionViewCell.h */,
+				ED7EE12A1AB91CE400D58E6A /* PhotoCollectionViewCell.m */,
+				ED7EE12D1AB91D5900D58E6A /* PhotoCollectionViewController.h */,
+				ED7EE12E1AB91D5900D58E6A /* PhotoCollectionViewController.m */,
+				ED7EE1311AB9359600D58E6A /* PhotoDetailViewController.h */,
+				ED7EE1321AB9359600D58E6A /* PhotoDetailViewController.m */,
 				EDADA2AE1AB506B200FB0AD7 /* NavigationController.h */,
 				EDADA2AF1AB506B200FB0AD7 /* NavigationController.m */,
-				ED7ACF851AB6607700FC7AC6 /* PhotosViewController.h */,
-				ED7ACF861AB6607700FC7AC6 /* PhotosViewController.m */,
 				ED6E646F1AB37848005707B9 /* MyBeautifulDay.xcdatamodeld */,
 				ED6E647A1AB37848005707B9 /* LaunchScreen.xib */,
 				ED6E64681AB37848005707B9 /* Supporting Files */,
@@ -284,17 +289,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7ACF8D1AB673BD00FC7AC6 /* HelpPageViewController.m in Sources */,
+				ED7EE12B1AB91CE400D58E6A /* PhotoCollectionViewCell.m in Sources */,
 				ED6E649E1AB37D03005707B9 /* DiaryEntry.m in Sources */,
 				ED6E646E1AB37848005707B9 /* AppDelegate.m in Sources */,
 				ED6E64711AB37848005707B9 /* MyBeautifulDay.xcdatamodeld in Sources */,
 				EDADA2B31AB50D7F00FB0AD7 /* EntryCell.m in Sources */,
+				ED7EE1331AB9359600D58E6A /* PhotoDetailViewController.m in Sources */,
 				ED6E646B1AB37848005707B9 /* main.m in Sources */,
+				ED7EE12F1AB91D5900D58E6A /* PhotoCollectionViewController.m in Sources */,
 				ED6E64931AB379C1005707B9 /* EntryViewController.m in Sources */,
 				ED7ACF901AB6741700FC7AC6 /* HelpDetailViewController.m in Sources */,
 				EDADA2B01AB506B200FB0AD7 /* NavigationController.m in Sources */,
 				ED6E649B1AB37A8E005707B9 /* CoreDataStack.m in Sources */,
-				ED7ACFAA1AB73A5A00FC7AC6 /* PhotoCell.m in Sources */,
-				ED7ACF871AB6607700FC7AC6 /* PhotosViewController.m in Sources */,
 				EDADA2AA1AB4D6A400FB0AD7 /* EntryListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
